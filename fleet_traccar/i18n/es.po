@@ -1,0 +1,166 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_traccar
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.server_form
+msgid "Authentication"
+msgstr "Autenticación"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__available
+msgid "Available in Traccar"
+msgstr "Disponible en Traccar"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Connection"
+msgstr "Conexión"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__unique_id
+msgid "Device identifier"
+msgstr "Identificador del dispositivo"
+
+#. module: fleet_traccar
+#: model:ir.ui.menu,name:fleet_traccar.menu_devices
+msgid "Devices"
+msgstr "Dispositivos"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__position_time
+msgid "GPS fix time"
+msgstr "Hora de posición GPS"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__last_update
+msgid "Last contact"
+msgstr "Último contacto"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Latest position"
+msgstr "Última posición"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Mileage"
+msgstr "Kilometraje"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Odometer updates are optional. Verify the total distance and offset before enabling. Readings are converted to the vehicle's unit and only increases are recorded."
+msgstr "La actualización del odómetro es opcional. Compruebe la distancia total y el ajuste antes de activarla. Las lecturas se convierten a la unidad del vehículo y solo se registran los incrementos."
+
+#. module: fleet_traccar
+msgid "Off"
+msgstr "Apagado"
+
+#. module: fleet_traccar
+msgid "Offline"
+msgstr "Desconectado"
+
+#. module: fleet_traccar
+msgid "On"
+msgstr "Encendido"
+
+#. module: fleet_traccar
+msgid "Online"
+msgstr "En línea"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Open in Traccar"
+msgstr "Abrir en Traccar"
+
+#. module: fleet_traccar
+#: model:ir.ui.menu,name:fleet_traccar.menu_servers
+msgid "Servers"
+msgstr "Servidores"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__speed_kmh
+msgid "Speed (km/h)"
+msgstr "Velocidad (km/h)"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.server_form
+msgid "Sync now"
+msgstr "Sincronizar ahora"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.server_form
+msgid "Synchronization"
+msgstr "Sincronización"
+
+#. module: fleet_traccar
+#: model:ir.actions.act_window,name:fleet_traccar.device_action
+msgid "Traccar Devices"
+msgstr "Dispositivos Traccar"
+
+#. module: fleet_traccar
+#: model:ir.actions.act_window,name:fleet_traccar.server_action
+msgid "Traccar Servers"
+msgstr "Servidores Traccar"
+
+#. module: fleet_traccar
+msgid "Traccar synchronized"
+msgstr "Traccar sincronizado"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__distance_km
+msgid "Traccar total distance (km)"
+msgstr "Distancia total de Traccar (km)"
+
+#. module: fleet_traccar
+msgid "Unknown"
+msgstr "Desconocido"
+
+#. module: fleet_traccar
+msgid "Unlinked"
+msgstr "Sin vincular"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__sync_odometer
+msgid "Update vehicle odometer"
+msgstr "Actualizar odómetro del vehículo"
+
+#. module: fleet_traccar
+#: model:ir.model.fields,field_description:fleet_traccar.field_traccar_device__valid
+msgid "Valid GPS fix"
+msgstr "Posición GPS válida"
+
+#. module: fleet_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar.device_form
+msgid "Vehicle link"
+msgstr "Vinculación del vehículo"
+
+#. module: fleet_traccar
+msgid "%s devices available."
+msgstr "%s dispositivos disponibles."
+
+#. module: fleet_traccar
+msgid "Cannot reach Traccar. Check the server URL, network, and TLS certificate."
+msgstr "No se puede conectar con Traccar. Compruebe la URL, la red y el certificado TLS."
+
+#. module: fleet_traccar
+msgid "Configure a Traccar token or username and password."
+msgstr "Configure un token de Traccar o un nombre de usuario y una contraseña."
+
+#. module: fleet_traccar
+msgid "Only Fleet administrators can synchronize Traccar."
+msgstr "Solo los administradores de Flota pueden sincronizar Traccar."
+
+#. module: fleet_traccar
+msgid "Traccar rejected the credentials or access permissions."
+msgstr "Traccar rechazó las credenciales o los permisos de acceso."
