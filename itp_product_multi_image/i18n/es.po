@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * itp_product_multi_image
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"POT-Creation-Date: 2026-10-14 00:00+0000\n"
+"PO-Revision-Date: 2026-10-14 00:00+0000\n"
+"Last-Translator: Innovación Técnica Piscinas S.L.\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: itp_product_multi_image
+#: model:ir.module.module,summary:itp_product_multi_image
+msgid "Add multiple images for a product, a.k.a. an image gallery."
+msgstr "Añade varias imágenes a un producto, como una galería de imágenes."
+
+#. module: itp_product_multi_image
+#: model:ir.module.module,name:itp_product_multi_image
+msgid "Multiple Images in Products"
+msgstr "Múltiples imágenes en productos"
+
+#. module: itp_product_multi_image
+#: model:ir.model.fields,field_description:itp_product_multi_image.field_base_multi_image_image__product_variant_ids
+msgid "Visible in these variants"
+msgstr "Visible en estas variantes"
+
+#. module: itp_product_multi_image
+#: model_terms:ir.ui.view,arch_db:itp_product_multi_image.view_product_template_form_img_inh
+#: model_terms:ir.ui.view,arch_db:itp_product_multi_image.product_variant_easy_edit_view
+msgid "Images"
+msgstr "Imágenes"
